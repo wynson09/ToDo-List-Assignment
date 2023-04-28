@@ -1,0 +1,66 @@
+.title {
+  margin: 30px 0;
+  font-size: 40px;
+}
+.List {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+  width: 350px;
+  min-height: 350px;
+  margin-bottom: 50px;
+  border-radius: 24px;
+  background: #5fb9f2;
+  box-shadow: inset 9px 9px 18px #519dce, inset -9px -9px 18px #6dd5ff;
+}
+ul {
+  width: 100%;
+  list-style: none;
+  padding: 0 0.25rem 0.25rem;
+}
+
+ul li::before {
+  content: "\200B";
+}
+.list-items {
+  padding: 20px;
+}
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item:first-child {
+  margin: 0;
+}
+
+.item input[type="checkbox"] {
+  text-align: center;
+  min-width: 20px;
+  height: 2.5rem;
+  height: 48px;
+  min-height: 48px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.item > label {
+  font-size: 15px;
+  flex-grow: 1;
+}
+
+.item svg {
+  margin-right: 10px;
+  min-width: 25px;
+  height: 36px;
+  font-size: 1rem;
+  color: steelblue;
+  cursor: pointer;
+}
+
+.item svg:focus,
+.item svg:hover {
+  color: red;
+  outline: none;
+}
