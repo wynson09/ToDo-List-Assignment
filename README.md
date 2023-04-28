@@ -6,3 +6,6 @@ them in JSX. This task will help you become familiar with dynamic values and
 props in functional components.
 
 I add additional functionalities to this assignment like can add to-do list and search onto the to-do list.
+
+I already uploaded it to the live server.
+Here's the link: https://wn-todolist.pages.dev/
