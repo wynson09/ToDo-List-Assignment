@@ -64,3 +64,14 @@ ul li::before {
   color: red;
   outline: none;
 }
+
+.msg-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+.msg {
+  font-size: 20px;
+}

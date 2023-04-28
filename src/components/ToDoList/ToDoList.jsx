@@ -29,7 +29,9 @@ function ToDoList({ items, handleCheck, handleDelete }) {
           ))}
         </ul>
       ) : (
-        <p style={{ marginTop: "2rem" }}>Your list is empty.</p>
+        <div className="msg-box">
+          <p className="msg">Your list is empty.</p>
+        </div>
       )}
     </main>
   );
